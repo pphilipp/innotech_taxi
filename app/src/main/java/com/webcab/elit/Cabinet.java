@@ -88,6 +88,19 @@ public class Cabinet extends Activity {
 			}
 		});
 
+		(findViewById(R.id.btn_write_to_developers)).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {//
+				Intent intent = new Intent(Intent.ACTION_SENDTO);
+				intent.setType("text/plain");
+				intent.putExtra(Intent.EXTRA_SUBJECT,
+						getResources().getString(R.string.str_write_to_developers_subject));
+				intent.setData(Uri.parse("mailto:vladimir.kaminsky@innotech-ua.com"));
+				intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				startActivity(intent);
+			}
+		});
+
 		try {
 			PackageInfo pack=getPackageManager().getPackageInfo(getPackageName(), 0);
 			version.setText(pack.versionName);

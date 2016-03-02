@@ -78,4 +78,7 @@
     <string name="your_current_order">Ваш текущий заказ</string>
     <string name="your_order_details">К Вам едет</string>
 
+    <string name="str_write_to_developers">НАПИСАТЬ РАЗРАБОТЧИКАМ</string>
+    <string name="str_write_to_developers_subject">Письмо разработчикам</string>
+
 </resources>
