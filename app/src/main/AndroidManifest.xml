@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.webcab.elit"
+    android:versionCode="54"
+    android:versionName="1.534" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <permission
+        android:name="com.webcab.elit.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <!-- <uses-permission android:name="com.webcab.elit.permission.MAPS_RECEIVE" /> -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_CHANGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+
+    <application
+        android:name=".MyTaxiApplication"
+        android:icon="@drawable/icon_logo"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.webcab.elit" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".gcm.GCMIntentService" />
+
+        <activity
+            android:name=".HomeScreen"
+            android:exported="true"
+            android:label="@string/title_activity_home_screen"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Order_from"
+            android:label="@string/title_activity_order_from"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Order_dop"
+            android:label="@string/title_activity_order_from"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Order_to"
+            android:label="@string/title_activity_order_from"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrderTo1"
+            android:label="@string/title_activity_order_from"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddAddress"
+            android:label="@string/title_activity_order_from"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Templates"
+            android:label="@string/title_activity_templates"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TemplatesAdr"
+            android:label="@string/title_activity_templates"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Templates_2"
+            android:label="@string/title_activity_templates"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cabinet"
+            android:label="@string/title_activity_cabinet"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CabinetArch"
+            android:label="@string/title_activity_cabinet"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CabinetArchItem"
+            android:label="@string/title_activity_cabinet"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CabinetMyData"
+            android:label="@string/title_activity_cabinet"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OrderWait"
+            android:label="@string/title_activity_settings"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Progress"
+            android:label="@string/title_activity_progress"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Map_Activity"
+            android:label="@string/title_activity_map"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+        <activity
+            android:name=".ZaGorod"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+        <activity
+            android:name=".TemplAddAddr"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+        <activity
+            android:name=".ClientInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+        <activity
+            android:name=".TemplAddRoute"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+        <activity
+            android:name=".CompanyReview"
+            android:label="@string/title_activity_company_review"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+        <activity
+            android:name=".OrderWaitNew"
+            android:screenOrientation="portrait"
+            android:theme="@style/noAnim" >
+        </activity>
+
+        <service android:name=".MyService" >
+        </service>
+        <service android:name=".WaitingCarService" >
+        </service>
+        <service android:name=".widget.WidgetFactoryService"
+            android:permission="android.permission.BIND_REMOTEVIEWS">
+        </service>
+        <receiver
+            android:name=".widget.WidgetProvider">
+            <intent-filter>
+                <action
+                    android:name="android.appwidget.action.APPWIDGET_UPDATE">
+                </action>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info">
+            </meta-data>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD_wI6yrqszBFdkRbugUFhZAIGXmc2KKlo" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f79bd91ef65107c684f7a6dcd15131ab20ab0e7f" />
+    </application>
+
+</manifest>

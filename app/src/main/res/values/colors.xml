@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+	<color name="transp">#00000000</color>
+	<color name="blue_WebCab">#20629E</color>
+	<color name="grey_text">#ffa9a9a9</color>
+	<color name="bright_foreground_light">#f3f3f3</color>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="fill" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        layout="@layout/top_bar" />
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <fragment
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="@dimen/upper_blue_btn_height" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <SlidingDrawer
+            android:id="@+id/slidingdrawer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:content="@+id/content"
+            android:handle="@+id/handle"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/handle">
+
+                <ImageView
+                    android:id="@+id/drag_minus"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="-1dp"
+                    android:src="@drawable/drag_minus"
+                    android:layout_gravity="center"/>
+
+
+                <Button
+                    android:id="@+id/handle1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/upper_blue_btn_height"
+                    android:background="@drawable/drag_panel"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:lines="1"
+                    android:scaleType="center"
+                    android:text="Cейчас на линии"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/upper_blue_btn_text_size" />
+
+
+
+
+            </LinearLayout>
+
+
+
+            <include
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                layout="@layout/under_scroll" />
+        </SlidingDrawer>
+    </FrameLayout>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="testtest"
+    android:id="@+id/btn_test"/>
+
+</RelativeLayout>

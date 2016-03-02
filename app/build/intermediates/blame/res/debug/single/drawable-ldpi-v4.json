@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/pencil.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/pencil.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/map_icon_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/map_icon_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/time_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/time_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/nuclear_power_plant.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/nuclear_power_plant.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/wifi_n.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/wifi_n.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/to_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/to_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/y_car_inactiv.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/y_car_inactiv.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/nomer.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/nomer.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vote_good.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/vote_good.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/sn1.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/sn1.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/bg.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/bg.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/drag_minus.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/drag_minus.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/icon_logo.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/icon_logo.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/otz.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/otz.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/treasure_chest1.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/treasure_chest1.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/cab_inactive.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/cab_inactive.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/exit.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/exit.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/fold_inactive1.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/fold_inactive1.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/user.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/user.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/fold_inactive.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/fold_inactive.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/y_car.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/y_car.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/wifi_a.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/wifi_a.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vote_bad_small.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/vote_bad_small.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/mastercard_a.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/mastercard_a.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/flag_red.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/flag_red.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/map_icon_inactive.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/map_icon_inactive.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/updown.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/updown.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/bl_car_inactiv.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/bl_car_inactiv.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/add_address.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/add_address.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/my.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/my.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/car_inactive.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/car_inactive.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/set.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/set.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vote_so_so_small.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/vote_so_so_small.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/btn_with_shadow.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/btn_with_shadow.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/teddy_bear.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/teddy_bear.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/where_am_i_btn.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/where_am_i_btn.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/user_inactive.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/user_inactive.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/treasure_chest1_a.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/treasure_chest1_a.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/teddy_bear_a.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/teddy_bear_a.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/help.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/help.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/bl_car.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/bl_car.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/noticication_ico.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/noticication_ico.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/gr_car_inactiv.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/gr_car_inactiv.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/car_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/car_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vote_good_small.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/vote_good_small.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/cab_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/cab_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vote_so_so.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/vote_so_so.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/from_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/from_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/about.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/about.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/cars.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/cars.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/fold_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/fold_active.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/gr_car.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/gr_car.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/delete.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/delete.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/drag_plus.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/drag_plus.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/settings_inactive.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/settings_inactive.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/auto_green_24.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/auto_green_24.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/sn1_a.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/sn1_a.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/vote_bad.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/vote_bad.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/auto_red_24.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/auto_red_24.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/flag_g.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/flag_g.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/arch.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/arch.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/nuclear_power_plant_a.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/nuclear_power_plant_a.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/mastercard.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/mastercard.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/shopping.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/shopping.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/arrow_right.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/arrow_right.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/delete_white.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/delete_white.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/progress.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/progress.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/delete_blue.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/delete_blue.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/cars_inactiv.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/cars_inactiv.png"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/settings_active.png",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/drawable-ldpi/settings_active.png"
+    }
+]

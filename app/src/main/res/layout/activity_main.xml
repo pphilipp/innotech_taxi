@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:gravity="fill">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/auth_header_grad"
+            android:text="Авторизация"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/txt_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="ВВЕДИТЕ НОМЕР ТЕЛЕФОНА"
+            android:visibility="gone"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_below="@+id/txt_year"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="67dp"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="10dp"
+            android:ems="14"
+            android:inputType="phone"
+            android:lines="1"
+            android:maxLines="1"
+            android:hint="@string/phone_number_hint"
+            android:textSize="21sp"
+            android:background="@drawable/edittext_active_border">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/txt_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_call"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="ВВЕДИТЕ КОД"
+            android:visibility="gone"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="210dp"
+            android:layout_height="56dp"
+            android:layout_below="@+id/txt_color"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="numberPassword"
+            android:lines="1"
+            android:maxLength="4"
+            android:maxLines="1"
+            android:hint="@string/code_hint"
+            android:background="@drawable/edittext_active_border"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:text="ПОДТВЕРДИТЬ" />
+
+        <Button
+            android:id="@+id/button_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/txt_color"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_shape"
+            android:text="ПОЛУЧИТЬ КОД" />
+
+        <ImageButton
+            android:id="@+id/help"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/help" />
+
+        <TextView
+            android:id="@+id/textHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-4dp"
+            android:text="Small Text"
+            android:visibility="gone"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#bebebe" />
+
+    </RelativeLayout>

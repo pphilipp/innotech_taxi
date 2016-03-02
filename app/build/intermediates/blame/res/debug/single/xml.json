@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/xml/app_tracker.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/xml/app_tracker.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/xml/widget_info.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/xml/widget_info.xml"
+    }
+]

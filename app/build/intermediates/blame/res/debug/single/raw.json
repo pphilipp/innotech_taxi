@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/raw/horn.mp3",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/raw/horn.mp3"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/raw/arrived2.wav",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/raw/arrived2.wav"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/raw/arrived_double.mp3",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/raw/arrived_double.mp3"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/raw/arrived.wav",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/raw/arrived.wav"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/raw/gtm_analytics",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/res/raw/gtm_analytics"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/raw/arrived1.wav",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/raw/arrived1.wav"
+    }
+]

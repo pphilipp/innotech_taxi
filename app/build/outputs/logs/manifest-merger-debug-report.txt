@@ -1,0 +1,868 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:2:1-294:12
+	xmlns:android
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:5:5-32
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:23:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:23:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:22.2.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-games:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-location:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.3.0/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.sothree.slidinguppanel:library:3.1.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/3.1.1/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:11:5-17:40
+	android:resizeable
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:15:9-34
+	android:largeScreens
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:13:9-36
+	android:anyDensity
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:12:9-34
+	android:normalScreens
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:17:9-37
+	android:smallScreens
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:16:9-36
+permission#com.webcab.elit.permission.MAPS_RECEIVE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:19:5-21:47
+	android:protectionLevel
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:21:9-44
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:20:9-63
+uses-permission#android.permission.INTERNET
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:25:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.3.0/AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:24:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.3.0/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:26:22-72
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:28:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:29:22-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:30:22-78
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:31:5-98
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:31:22-95
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:32:22-75
+uses-permission#android.permission.READ_LOGS
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:33:5-68
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:33:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:34:5-76
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:35:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:36:5-79
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.CONNECTIVITY_CHANGE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:37:5-78
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:37:22-75
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:38:5-71
+MERGED from [com.google.android.gms:play-services-wallet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/AndroidManifest.xml:21:5-70
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:38:22-68
+uses-permission#android.permission.READ_SMS
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:39:5-67
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:39:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:40:5-80
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:40:22-77
+uses-feature#0x00020000
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:42:5-44:35
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:22:5-24:33
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:22:5-24:33
+	android:required
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:44:9-32
+	android:glEsVersion
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:43:9-41
+application
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:48:5-292:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:27:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:27:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.3.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-appstate:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:20:5-25:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-cast:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:22.2.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.3.0/AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.3.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.sothree.slidinguppanel:library:3.1.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.sothree.slidinguppanel/library/3.1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:52:9-45
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:51:9-41
+	android:icon
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:50:9-43
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:53:9-40
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:49:9-42
+activity#com.webcab.elit.MainActivity
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:54:9-64:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:57:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:56:13-56
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:58:13-66
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:55:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:59:13-63:29
+action#android.intent.action.MAIN
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:60:17-69
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:60:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:62:17-77
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:62:27-74
+receiver#com.webcab.elit.gcm.GCMBroadcastReceiver
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:66:9-75:20
+	android:permission
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:68:13-73
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:67:13-53
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.webcab.elit
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:69:13-74:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:70:17-81
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:70:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:71:17-86
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:71:25-83
+category#com.webcab.elit
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:73:17-60
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:73:27-57
+service#com.webcab.elit.gcm.GCMIntentService
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:77:9-57
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:77:18-54
+activity#com.webcab.elit.HomeScreen
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:79:9-89:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:82:13-63
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:85:13-42
+	android:exported
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:81:13-36
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:80:13-39
+	android:launchMode
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:83:13-43
+intent-filter#android.intent.category.LAUNCHER
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:86:13-88:29
+activity#com.webcab.elit.Order_from
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:90:9-98:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:93:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:92:13-62
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:94:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:91:13-39
+activity#com.webcab.elit.Order_dop
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:99:9-107:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:102:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:101:13-62
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:103:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:100:13-38
+activity#com.webcab.elit.Order_to
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:108:9-116:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:111:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:110:13-62
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:112:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:109:13-37
+activity#com.webcab.elit.OrderTo1
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:117:9-125:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:120:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:119:13-62
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:121:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:118:13-37
+activity#com.webcab.elit.AddAddress
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:126:9-134:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:128:13-62
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:130:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:127:13-39
+activity#com.webcab.elit.Templates
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:135:9-143:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:138:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:137:13-61
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:139:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:136:13-38
+activity#com.webcab.elit.TemplatesAdr
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:144:9-152:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:147:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:146:13-61
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:148:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:145:13-41
+activity#com.webcab.elit.Templates_2
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:153:9-161:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:156:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:155:13-61
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:157:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:154:13-40
+activity#com.webcab.elit.Cabinet
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:162:9-170:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:165:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:164:13-59
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:166:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:163:13-36
+activity#com.webcab.elit.CabinetArch
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:171:9-179:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:174:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:173:13-59
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:175:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:172:13-40
+activity#com.webcab.elit.CabinetArchItem
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:180:9-188:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:183:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:182:13-59
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:184:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:181:13-44
+activity#com.webcab.elit.CabinetMyData
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:189:9-197:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:192:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:191:13-59
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:193:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:190:13-42
+activity#com.webcab.elit.Settings
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:198:9-206:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:201:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:200:13-60
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:202:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:199:13-37
+activity#com.webcab.elit.OrderWait
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:207:9-215:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:210:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:209:13-60
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:211:13-53
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:208:13-38
+activity#com.webcab.elit.Progress
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:216:9-224:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:219:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:218:13-60
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:220:13-66
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:217:13-37
+activity#com.webcab.elit.Map_Activity
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:225:9-230:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:228:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:227:13-55
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:229:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:226:13-41
+activity#com.webcab.elit.ZaGorod
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:231:9-235:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:233:13-49
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:234:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:232:13-36
+activity#com.webcab.elit.TemplAddAddr
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:236:9-240:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:238:13-49
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:239:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:237:13-41
+activity#com.webcab.elit.ClientInfo
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:241:9-245:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:243:13-49
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:244:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:242:13-39
+activity#com.webcab.elit.TemplAddRoute
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:246:9-250:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:248:13-49
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:249:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:247:13-42
+activity#com.webcab.elit.CompanyReview
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:251:9-256:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:254:13-49
+	android:label
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:253:13-66
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:255:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:252:13-42
+activity#com.webcab.elit.OrderWaitNew
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:257:9-261:20
+	android:screenOrientation
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:259:13-49
+	android:theme
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:260:13-42
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:258:13-41
+service#com.webcab.elit.MyService
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:263:9-264:19
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:263:18-43
+service#com.webcab.elit.WaitingCarService
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:265:9-266:19
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:265:18-51
+service#com.webcab.elit.widget.WidgetFactoryService
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:267:9-269:19
+	android:permission
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:268:13-69
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:267:18-61
+receiver#com.webcab.elit.widget.WidgetProvider
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:270:9-281:20
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:271:13-50
+intent-filter#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:272:13-276:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:273:17-275:26
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:274:21-77
+meta-data#android.appwidget.provider
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:277:13-280:25
+	android:resource
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:279:17-52
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:278:17-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:283:9-285:71
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:284:13-62
+	android:value
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:285:13-68
+meta-data#com.google.android.gms.version
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:286:9-288:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/AndroidManifest.xml:21:9-23:69
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:287:13-58
+	android:value
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:288:13-66
+meta-data#io.fabric.ApiKey
+ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:289:9-291:72
+	android:name
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:290:13-44
+	android:value
+		ADDED from /home/philipp/AndroidStudioProjects/Taxi/app/src/main/AndroidManifest.xml:291:13-69
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:26:9-29:64
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:30:9-31:52
+MERGED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/AndroidManifest.xml:30:19-91
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:21:9-24:46
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:22:19-78
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:24:19-43
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:23:19-52
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/AndroidManifest.xml:21:19-72
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:21:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/AndroidManifest.xml:21:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:24:22-65
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:28:7-31:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:28:7-31:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:31:11-35
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:29:11-76
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:33:7-39:18
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:41:7-44:37
+MERGED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:41:7-44:37
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:44:11-35
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:43:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/AndroidManifest.xml:42:11-82
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from [com.google.android.gms:play-services-wallet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from [com.google.android.gms:play-services-wallet:8.3.0] /home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/AndroidManifest.xml:22:22-71

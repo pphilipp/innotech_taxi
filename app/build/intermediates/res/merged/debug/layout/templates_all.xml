@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEFEF">
+    
+    <include
+        android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/include1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/but_add1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/upper_blue_btn_height"
+            android:background="@drawable/drag_panel"
+            android:text="@string/templates"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/upper_blue_btn_text_size" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:background="@drawable/top_bar_bg">
+
+            <TextView
+                android:id="@+id/txt_all"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ВСЕ"
+                android:background="@drawable/item_1"
+                android:textColor="#2E2E2E" />
+
+            <TextView
+                android:id="@+id/txt_addr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/item_1"
+                android:gravity="center"
+                android:text="АДРЕСА"
+                android:textColor="#2E2E2E" />
+
+            <TextView
+                android:id="@+id/txt_route"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/item_1"
+                android:gravity="center"
+                android:text="МАРШРУТЫ"
+                android:textColor="#2E2E2E" />
+        </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_for_listviews"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp">
+
+    </ListView>
+
+    </LinearLayout>
+
+</RelativeLayout>

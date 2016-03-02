@@ -1,0 +1,399 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#B6B6B6"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btn_layout">
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/but_yellow"
+            android:text="ОТМЕНА"
+            android:textColor="#FF1E90FF"
+            android:textSize="20dp" android:enabled="true"/>
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/but_blue"
+            android:text="ГОТОВО"
+            android:textColor="#FFFFFF00"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/include1"
+        android:layout_above="@+id/btn_layout"
+        android:background="#EFEFEF" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="#EFEFEF">
+
+            <Button
+                android:id="@+id/but_add"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/upper_blue_btn_height"
+                android:background="@drawable/drag_panel"
+                android:text="ЗАКАЗ"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/upper_blue_btn_text_size" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/archive_order_bg"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="7dp"
+                android:paddingTop="2dp"
+                android:padding="1dp"
+                >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/arch_order_line_bg"
+                    >
+
+                    <TextView
+                        android:id="@+id/data_text"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:text="Дата"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_weight="1"
+                        android:padding="3dp"
+                        android:text="0"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textColor="#4c4d4f" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/arch_order_line_bg">
+
+                    <TextView
+                        android:id="@+id/from_text"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:text="Откуда"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_from"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textColor="#4c4d4f" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/arch_order_line_bg">
+
+                    <TextView
+                        android:id="@+id/where_text"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:text="Куда"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:text="0"
+                        android:textColor="#4c4d4f" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/auto_ll"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/arch_order_line_bg">
+
+                    <TextView
+                        android:id="@+id/auto_text"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:text="Авто"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/auto_txt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:text="0"
+                        android:textColor="#4c4d4f" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/arch_order_line_bg">
+
+                    <TextView
+                        android:id="@+id/price_text"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:text="Стоимость"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:layout_weight="1"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:text="0"
+                        android:textColor="#4c4d4f" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/rate_ll"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/arch_order_line_bg">
+
+                    <TextView
+                        android:id="@+id/rate_text"
+                        android:layout_width="match_parent"
+                        android:layout_weight="2.5"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:padding="3dp"
+                        android:text="Оценка"
+                        android:textSize="@dimen/order_info_text_size"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitStart"
+                            android:layout_gravity="center_vertical"
+                            android:background="@drawable/vote_good_small"
+                            android:id="@+id/vote_face"
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/vote_layout">
+
+                <TextView
+                    android:id="@+id/rate_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:text="Оценка"
+                    android:textColor="#6B6966"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    >
+
+                    <ImageView
+                        android:id="@+id/like_y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:background="@drawable/up_n"
+                        android:scaleType="fitXY" />
+
+                    <ImageView
+                        android:id="@+id/like_n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:background="@drawable/down_n" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/vote_bad"
+                        android:src="@drawable/vote_bad"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:id="@+id/vote_so_so"
+                        android:src="@drawable/vote_so_so"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginRight="10dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/vote_good"
+                        android:src="@drawable/vote_good"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/order_control_layout"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="РЕДАКТИРОВАТЬ ЗАКАЗ"
+                    android:id="@+id/edit_order_btn"
+                    android:textColor="#6B6966"
+                    android:background="@drawable/btn_with_shadow"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="УДАЛИТЬ ЗАКАЗ"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#6B6966"
+                    android:visibility="gone"
+                    android:id="@+id/delete_order_btn"
+                    android:background="@drawable/btn_with_shadow"/>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editText1"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="КОММЕНТАРИЙ"
+                android:ems="10"
+                android:ellipsize="start"
+                android:gravity="center"
+                android:background="@drawable/edittext_active_border">
+            </EditText>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

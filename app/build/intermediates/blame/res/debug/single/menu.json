@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_from.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_from.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_about.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_about.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/cabinet.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/cabinet.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_choice.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_choice.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/templates.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/templates.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_home_screen.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_home_screen.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_za_gorod.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_za_gorod.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_new_order.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_new_order.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_order_from.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_order_from.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_progress.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_progress.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_from_poi.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_from_poi.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_time.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_time.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_extra.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_extra.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_history.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_history.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_main.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_from_map.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_from_map.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/settings.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/settings.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_choise.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_choise.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_map.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_map.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/company_review.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/company_review.xml"
+    },
+    {
+        "merged": "/home/philipp/AndroidStudioProjects/Taxi/app/build/intermediates/res/merged/debug/menu/activity_login.xml",
+        "source": "/home/philipp/AndroidStudioProjects/Taxi/app/src/main/res/menu/activity_login.xml"
+    }
+]

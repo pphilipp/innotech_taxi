@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_bot"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#B6B6B6" >
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/but_yellow"
+            android:text="ОТМЕНИТЬ ЗАКАЗ"
+            android:textColor="#019fde"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bt_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:background="@drawable/but_blue"
+            android:textColor="#FFFFFF00"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_above="@id/ll_bot"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+    <ProgressBar
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/progressBar"
+        android:indeterminateDrawable="@drawable/spinner_png"
+        android:indeterminateOnly="true"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_oder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/gray_without_corners"
+        android:orientation="vertical" >
+
+
+        <FrameLayout
+            android:id="@+id/fr_poisk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/txt_poisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:text="автомобиль будет через:"
+                android:textColor="#221F1F"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txt_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="0:30"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#110000"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

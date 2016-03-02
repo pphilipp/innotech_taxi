@@ -1,0 +1,611 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        layout="@layout/top_bar" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/upper_blue_btn_height"
+        android:background="@drawable/drag_panel"
+        android:text="ДОБАВИТЬ МАРШРУТ"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/upper_blue_btn_text_size"
+        android:layout_below="@+id/include1" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/button3"
+        android:layout_above="@+id/bottop_panel">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/include1"
+            android:layout_gravity="top"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/txt_year23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="НАЗВАНИЕ"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#4c4d4f" />
+
+                    <TextView
+                        android:id="@+id/textView334"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="*"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#FF0000"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/ed_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="3"
+                    android:ems="10"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:nextFocusDown="@+id/aut1"
+                    android:singleLine="true"
+                    android:background="@drawable/edittext_active_border"
+                    android:textColor="#000000" >
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/textView_city1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ГОРОД"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4c4d4f" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    style="@style/MySpinner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:background="@drawable/spinner_custom_view" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/textView_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="КЛАСС АВТО"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4c4d4f" />
+
+                <TextView
+                    android:id="@+id/textView3354"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="0dp"
+                    style="@style/MySpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:background="@drawable/spinner_custom_view" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/street_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="УЛИЦА"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4c4d4f" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+
+                    <com.webcab.elit.adapters.AutoCompleteLoadding
+                        android:id="@+id/aut1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:nextFocusDown="@+id/aut2"
+                        android:singleLine="true"
+                        android:background="@drawable/edittext_active_border"
+                        android:textColor="#000000" >
+                    </com.webcab.elit.adapters.AutoCompleteLoadding>
+
+                    <ProgressBar
+                        android:id="@+id/pr_str"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="5dp"
+                        android:indeterminateDrawable="@drawable/spinner_png"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/house_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ДОМ"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4c4d4f" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+
+                    <com.webcab.elit.adapters.AutoCompleteLoadding
+                        android:id="@+id/aut2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:nextFocusDown="@+id/aut3"
+                        android:singleLine="true"
+                        android:background="@drawable/edittext_active_border"
+                        android:textColor="#000000" >
+                    </com.webcab.elit.adapters.AutoCompleteLoadding>
+
+                    <ProgressBar
+                        android:id="@+id/pr_dom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="5dp"
+                        android:indeterminateDrawable="@drawable/spinner_png"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:gravity="right">
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ПОДЪЕЗД"
+                        android:layout_gravity="center_vertical"
+                        android:textColor="#4c4d4f" />
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="3">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/aut3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="5dp"
+                        android:ems="10"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:background="@drawable/edittext_active_border"/>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|right"
+                    android:gravity="right"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ИЛИ"
+                        android:gravity="center_vertical"
+                        android:textColor="#4c4d4f" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="* "
+                        android:textColor="#FF0000"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:id="@+id/TextView06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="КВ."
+                        android:gravity="center_vertical"
+                        android:textColor="#4c4d4f" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/aut4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:layout_marginLeft="5dp"
+                        android:ems="10"
+                        android:lines="1"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:background="@drawable/edittext_active_border"/>
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:text="ПРИМЕЧАНИЕ"
+                android:textColor="#4c4d4f" />
+
+            <EditText
+                android:id="@+id/edit_d"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:ems="10"
+                android:hint="Тут Вы можете оставить более детальную информацию о том, где Вас ждать"
+                android:inputType="textMultiLine"
+                android:background="@drawable/edittext_active_border"
+                android:textColor="#000000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/txt_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="УЛИЦА"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4c4d4f" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+
+                    <com.webcab.elit.adapters.AutoCompleteLoadding
+                        android:id="@+id/aut12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:nextFocusDown="@+id/aut2"
+                        android:background="@drawable/edittext_active_border"
+                        android:singleLine="true"
+                        android:textColor="#000000" >
+                    </com.webcab.elit.adapters.AutoCompleteLoadding>
+
+                    <ProgressBar
+                        android:id="@+id/pr_str2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="5dp"
+                        android:indeterminateDrawable="@drawable/spinner_png"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/TextView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ДОМ"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#4c4d4f" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="*"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#FF0000"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3" >
+
+                    <com.webcab.elit.adapters.AutoCompleteLoadding
+                        android:id="@+id/aut22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:lines="1"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:nextFocusDown="@+id/aut3"
+                        android:background="@drawable/edittext_active_border"
+                        android:singleLine="true"
+                        android:textColor="#000000" >
+                    </com.webcab.elit.adapters.AutoCompleteLoadding>
+
+                    <ProgressBar
+                        android:id="@+id/pr_dom2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginRight="5dp"
+                        android:indeterminateDrawable="@drawable/spinner_png"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottop_panel"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#B6B6B6"
+        android:gravity="bottom" >
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/but_yellow"
+            android:text="ОТМЕНА"
+            android:textColor="#FF1E90FF"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/bt_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/but_blue"
+            android:text="ГОТОВО"
+            android:textColor="#FFFFFF00"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>
